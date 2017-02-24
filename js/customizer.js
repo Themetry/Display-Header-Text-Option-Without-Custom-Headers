@@ -20,21 +20,7 @@
 		} );
 	} );
 
-	// Featured Content heading
-	wp.customize( 'bari_featured_content_heading', function( value ) {
-		value.bind( function( to ) {
-			$( '.featured-heading' ).text( to );
-		} );
-	} );
-
-	// More Content heading
-	wp.customize( 'bari_more_content_heading', function( value ) {
-		value.bind( function( to ) {
-			$( '.more-posts-title' ).text( to );
-		} );
-	} );
-
-	// Header text color.
+	// Header text display.
 	wp.customize( 'header_textcolor', function( value ) {
 		value.bind( function( to ) {
 			if ( 'blank' === to ) {
