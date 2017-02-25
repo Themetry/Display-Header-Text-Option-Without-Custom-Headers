@@ -26,7 +26,6 @@
 			<?php
 			endif; ?>
 		</div><!-- .site-branding -->
-		<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
 	</header><!-- #masthead -->
 
 <?php wp_footer(); ?>
